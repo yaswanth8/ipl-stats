@@ -1,0 +1,14 @@
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ipl
+    username: postgres
+    password: Yaswanth@123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
